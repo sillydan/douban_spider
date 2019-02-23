@@ -8,7 +8,7 @@ from douban.settings import IMAGES_STORE,GROUP_URL
 class Pics(scrapy.Spider):
     name='getPic'
     cookie = {
-        'Cookie': '__utma=30149280.1493325172.1535859396.1535876818.1535879509.5; __utmb=30149280.47.2.1535880000349; __utmc=30149280; __utmz=30149280.1535859396.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmt=1; ap_v=1,6.0; douban-fav-remind=1; bid=7uit5jyIy8Q'}
+        'Cookie': '__utma=30149280.5162314.1548769493.1548769493.1550908057.2; __utmb=30149280.47.2.1535880000349; __utmc=30149280; __utmz=30149280.1535859396.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmt=1; ap_v=1,6.0; douban-fav-remind=1; bid=7uit5jyIy8Q'}
     def start_requests(self):
         #定义爬取的链接
         urls=[GROUP_URL]

@@ -13,7 +13,7 @@ BOT_NAME = 'douban'
 #设置爬取的第一页小组
 #GROUP_URL='https://www.douban.com/group/G4/discussion?start=0'
 #我每天每夜的自拍 小组
-GROUP_URL='https://www.douban.com/group/duqi/discussion?start=0'
+GROUP_URL='https://www.douban.com/group/mfeo/discussion?start=0'
 
 SPIDER_MODULES = ['douban.spiders']
 NEWSPIDER_MODULE = 'douban.spiders'
